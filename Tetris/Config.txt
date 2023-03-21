@@ -1,0 +1,24 @@
+#Configurate file
+#Add window properties and buttons
+#Color print in RGB code (R,G,B)
+#Size print (x0,y0,x1,y1)
+
+#Add window here
+WindowBegin
+	Size (0,0,500,500)
+	Color (220,220,120)
+WindowEnd
+
+#Add buttons here
+ButtonBegin
+	Size (180,100,320,200)
+	Color (34,36,80)
+	Name ("Start")
+ButtonEnd
+ButtonBegin
+	Size (180,200,320,300)
+	Color (255,155,255)
+	Name ("Exit")
+ButtonEnd
+
+
